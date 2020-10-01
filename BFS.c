@@ -24,9 +24,9 @@ void bfs(int node)
 int main()
 {
 	int e,i,v1,v2,node;
-	printf("enter nos of nodes\n");
+	printf("enter number of nodes\n");
 	scanf("%d",&n);
-	printf("enter nos of edges\n");
+	printf("enter number of edges\n");
 	scanf("%d",&e);
 	printf("enter edge details\n");
 	for(i=0;i<e;i++)
@@ -40,6 +40,4 @@ int main()
 	bfs(node-1);
 	return 0;
 
-
-
-p}l
+}
