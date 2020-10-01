@@ -84,7 +84,7 @@ int deleteBeginning(LL *l)
 
 int deleteEnd(LL *l)
 {
-b	node *p,*q;
+	node *p,*q;
 	
 	if(l->last==NULL)
 	{
