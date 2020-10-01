@@ -15,7 +15,7 @@ void insertBeginning(LL *l,int ele)
 	node *newrec;
 	newrec=(node*)malloc(sizeof(node));
 	newrec->data=ele;
-	if(l->lst==NULL)
+	if(l->last==NULL)
 	{
 	newrec->next=newrec;//loop back
 	l->last=newrec;	
@@ -29,7 +29,7 @@ void insertBeginning(LL *l,int ele)
 void insertEnd(LL *l,int ele)
 {
 	node *newrec,*p;
-	newrec=(node*)malloc(sizeof(node))
+	newrec=(node*)malloc(sizeof(node));
 	newrec->data=ele;
 		
 	if(l->1ast==NULL)
@@ -84,7 +84,7 @@ int deleteBeginning(LL *l)
 
 int deleteEnd(LL *l)
 {
-	node *p,*q;
+b	node *p,*q;
 	
 	if(l->last==NULL)
 	{
@@ -120,7 +120,7 @@ int main()
 		
 		printf("enter choice\n");
 		scanf("%d",&ch);
-		if(ch==5)
+		if(ch==6)
 		break;
 		switch(ch)
 		{case 1:printf(" enter element to insert at Beginning\n");
