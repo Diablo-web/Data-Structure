@@ -60,15 +60,15 @@ void merge(LL *l1,LL *l2)
 
 int main()
 {
-	LL l1,l2;
-	int n1,n2,ele,i;
+    LL l1,l2;
+    int n1,n2,ele,i;
     l1.start=NULL;
     l2.start=NULL;
     
     printf(" enter nos elements in first linked list\n ");
     scanf("%d",&n1);
     
-     printf(" enter no os elements in second linked list\n ");
+    printf(" enter no os elements in second linked list\n ");
     scanf("%d",&n2);
     
     printf(" enter elements in first linked list\n");
