@@ -125,7 +125,7 @@ void deleteNode(Tree *t,int ele)
 		f->right=NULL;
 		return;
 	}
-	//p has left child i.e only left and both child
+	//p has left child that is only left and both child
 	if(p->left!=NULL)
 	{
 		int val;
