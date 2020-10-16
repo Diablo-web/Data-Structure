@@ -34,7 +34,7 @@ int main()
 		printf(" enter edge\n");
 		scanf("%d %d",&v1,&v2);
 		adj[v1-1][v2-1]=adj[v2-1][v1-1]=1;
-	}
+	}//Enter the vertex
 	printf("enter starting vertex\n");
 	scanf("%d",&node);
 	bfs(node-1);
